@@ -1,0 +1,478 @@
+h1,p,a,h2,h3,h4,h5,h6,button{
+
+  font-family: poppins, sans-serif;
+
+}
+@font-face {
+    font-family: 'Poppins'; /* choose a name for your font family */
+    src: url('./font/Poppins-Regular.ttf'); /* specify the path to your font file */
+    font-weight: normal;
+    font-style: normal;
+  }
+  .main-container{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    
+  }
+
+  *{
+    margin: 0;
+    padding: 0;
+  
+  }
+  /* .height11{
+    height: 100vh;
+  } */
+  .height1{
+    margin-left: -12px;
+  }
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 50px;
+    margin-left: 102px;
+    margin-right: 42px;
+
+  }
+  .container--{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    gap: 30px;
+    margin-top: 50px;
+    margin-left: 200px;
+    /* margin-right: 42px; */
+  }
+  .heading-sum{
+    margin-top: 20px;
+  }
+  .image1111{
+    margin-top: 50px;
+    margin-left: 100px;
+  }
+  .my-{
+    margin-left: 60px;
+  }
+
+  .button-header{
+    width: 170px;
+    height: 50px;
+    margin-left: 95px;
+    margin-top: 40px;
+  }
+  .howw{
+    margin-top: 10px;
+  }
+  .imag{
+    margin-top: 50px;
+    margin-left: 100px;
+  }
+  .butto{
+    padding-top: 100px;
+    margin-top: 140px;
+    padding: 50px;
+
+  }
+.h12{
+  margin-top: 150px;
+  margin-left: 0px;
+  font-weight: 300!important;
+  font-size: calc(3.495rem + 2.1vw)!important;
+
+}
+.container-contact{
+  display: flex;
+  justify-content: space-between;
+  margin-right: 42px;
+}
+
+.container-name{
+  margin-left: 42px;
+}
+/* .margin--{
+  margin-left: 42px;
+} */
+.aligning{
+  margin-left: 0px;
+  font-size: 35px;
+}
+.h23{
+  /* margin-left: -22px; */
+  font-weight: 600!important;
+  text-transform: uppercase!important;
+  font-size: 800px;
+}
+.loop{
+  margin-left: 0px;
+  width:100px;
+  font-size: 100px;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typewriter 3s steps(13) infinite alternate;
+  border-right: 3px solid rgb(0, 0, 0);
+}
+@keyframes typewriter {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 65%;
+  }
+}
+
+  @keyframes site-rise {
+    from { transform: translateY(100%); }
+    to { transform: translateY(0); }
+  }
+  .site-rise {
+    animation: site-rise 1s ease-out;
+  }
+    
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 700,
+  'GRAD' 200,
+  'opsz' 48,
+}
+
+.container-nav2{
+  display: flex;
+}
+.contact-me{
+  margin-top: 55px;
+  font-family: poppins, sans-serif;
+}
+
+header {
+	position: fixed;
+	top: 0;
+	right: 0;
+	height: 60px;
+	width: 100%;
+	background-color: #F5DF4E;
+	display: flex;
+	align-items: center;
+}
+.nav-branding p{
+	margin-left: 10px;
+	margin: 0;
+	color: white;
+	font-weight: bold;
+	font-size: 24px;
+	
+}
+.container_nav{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 65%;
+}
+
+.nav-toggle {
+	position: relative;
+	margin: 10px;
+	height: 30px;
+	width: 35px;
+	cursor: pointer;
+}
+
+.nav-toggle span {
+	display: flex;
+	position: absolute;
+	height: 4px;
+	width: 100%;
+	background-color: black;
+}
+
+.nav-toggle span:nth-child(1) {
+	top: 0;
+}
+
+.nav-toggle span:nth-child(2) {
+	top: 13px;
+}
+
+.nav-toggle span:nth-child(3) {
+	top: 26px;
+}
+
+button{
+	width: 150px;
+  height: 40px;
+  color: rgb(33,37,41);
+}
+.image1{
+    float: left;
+    margin-top: 0;
+    margin-right: 0;
+}
+.headerss{
+	background-color: white;
+}
+
+
+.flex1{
+	display: flex;
+}
+
+
+
+
+h1,button,th,td,p{
+    font-family: Poppins;
+}
+
+  .section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .section .icon {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .section p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+  }
+  .section-icon {
+    color: #F5DF4E;
+  }
+    button {
+      background-color: rgb(33,37,41);
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      width: 170px;
+    }
+  .button1{
+    background-color: #F5DF4E;
+    color: black;
+    border: 2px solid #F5DF4E;
+    padding: 10px 20px;
+    font-size: 15px;
+    cursor: pointer;
+    width: 170px;
+    margin-top: 40px;
+  }
+  .padd{
+    padding-top: 20px;
+  }
+  .button2{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    width: 200px;
+    align-items: center;
+  }
+
+  .button2:hover {
+    background-color: rgb(33,37,41);
+  }
+  
+    button, i {
+      margin-right: 5px;
+    }
+    .contaainer1{
+      /* height: 100vh; */
+      background-color: #fff;
+      
+    }
+      .portfolio-nav {
+  display: flex;
+  background-color: #fff;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.portfolio-nav a {
+  color: #000;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.portfolio-nav a.active {
+  background-color: #ffdca6;
+}
+
+.portfolio-nav a.active:hover {
+  background-color: #ffdca6;
+}
+
+.portfolio-nav a:hover {
+  background-color: #f3f3f3;
+}
+.portfolio-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.portfolio-images .image {
+  position: relative;
+  width: calc(33.33% - 20px);
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.portfolio-images .image img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.portfolio-images .image .overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.5s ease;
+}
+
+.portfolio-images .image:hover .overlay {
+  visibility: visible;
+  opacity: 1;
+}
+
+.portfolio-images .image .hover-message {
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+.prompt {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 999;
+}
+
+.prompt.active {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.prompt-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 80%;
+  max-height: 80%;
+  overflow: auto;
+}
+
+.prompt-content h2 {
+  margin-top: 0;
+}
+
+.prompt-content p {
+  margin: 10px 0;
+}
+
+.prompt-content .close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+.dropdown-container {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.dropdown {
+  position: relative;
+  margin: 1em;
+  padding: 0.5em 2em 0.5em 1em; /* added extra padding to accommodate bulb icon */
+  background-color: #f1f1f1;
+  color: #555;
+  border-radius: 5px;
+  width: 400px;
+  cursor: pointer;
+  white-space: nowrap; /* prevents dropdown text from wrapping */
+
+}
+.dropdown-icon {
+  float: right;
+  margin-left: 5px;
+}
+.bulb-icon {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 0.5em;
+  font-size: 2em;
+  color: #555;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  min-width: 50px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  padding: 1em;
+  border-radius: 5px;
+  width: 150%; /* set the width to 100% to match the parent width */
+  left: 0; /* align the left edge of the drop-down with the parent */
+  top: 100%; /* position the drop-down below the parent */
+}
+.dropdown:hover {
+  background-color: #ddd;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.containerrr{
+  display: flex;
+  justify-content: space-between;
+}
+.width-cont{
+  width: 50%;
+}
+.estimate{
+  margin-right: 100px;
+}
+.heightvh{
+  height: 100vh;
+}
+.heightvhh{
+  height: 30vh;
+  align-items: center;
+  background-color: #555;
+  margin-top: 40px;
+}

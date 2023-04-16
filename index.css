@@ -13,6 +13,9 @@ h1,p,a,h2,h3,h4,h5,h6,button{
     margin: 0;
     padding: 0;
     height: 100vh;
+    z-index: 1;
+    position: relative;
+    top: 100px;
     
   }
 
@@ -43,7 +46,7 @@ h1,p,a,h2,h3,h4,h5,h6,button{
     /* justify-content: space-between; */
     gap: 30px;
     margin-top: 50px;
-    margin-left: 200px;
+    margin-left: 150px;
     /* margin-right: 42px; */
   }
   .heading-sum{
@@ -80,13 +83,13 @@ h1,p,a,h2,h3,h4,h5,h6,button{
   margin-top: 150px;
   margin-left: 0px;
   font-weight: 300!important;
-  font-size: calc(3.495rem + 2.1vw)!important;
+  font-size: calc(2.495rem + 2.1vw)!important;
 
 }
 .container-contact{
   display: flex;
   justify-content: space-between;
-  margin-right: 42px;
+  /* margin-right: 42px; */
 }
 
 .container-name{
